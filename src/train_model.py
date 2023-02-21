@@ -42,6 +42,6 @@ logging.info(f"Precision: {precision: .2f}. Recall: {recall: .2f}. Fbeta: {fbeta
 
 # Save artifacts: Saving the artifacts: Model, Encoders and 
 logging.info("Saving artifacts")
-joblib.dump(model, 'model/model.pkl')
+joblib.dump(model, 'model/model')
 joblib.dump(encoder, 'model/encoder.pkl')
 joblib.dump(lb, 'model/lb.pkl')

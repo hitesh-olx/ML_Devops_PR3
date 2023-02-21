@@ -31,7 +31,7 @@ def test_performance():
     data = pd.read_csv(DATA_PATH)
     _, test = train_test_split(data, test_size=0.20)
 
-    rf = load_artifact(os.path.join(ARTIFACTS_PATH, 'model.pkl'))
+    rf = load_artifact(os.path.join(ARTIFACTS_PATH, 'model'))
     encoder = load_artifact(os.path.join(ARTIFACTS_PATH, 'encoder.pkl'))
     lb = load_artifact(os.path.join(ARTIFACTS_PATH, 'lb.pkl'))
 

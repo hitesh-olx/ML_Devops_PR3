@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 
 
 DATA_PATH = 'data/clean_census.csv'
-MODEL_PATH = 'model/model.pkl'
+MODEL_PATH = 'model/model'
 
 cat_features = [
     "workclass",
