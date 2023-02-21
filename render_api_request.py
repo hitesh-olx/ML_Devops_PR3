@@ -25,7 +25,7 @@ features = {
 }
 
 
-app_url = "https://nanodegree.onrender.com/predict-income"
+app_url = "https://ml-devops-fast-api.onrender.com"
 
 r = requests.post(app_url, json=features)
 assert r.status_code == 200
