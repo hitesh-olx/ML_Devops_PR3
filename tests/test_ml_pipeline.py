@@ -53,3 +53,10 @@ def test_process_data(data):
     train, _ = train_test_split(data, test_size=0.20)
     X, y, _, _ = utils.process_data(train, cat_features, label='salary')
     assert len(X) == len(y)
+
+def test_model():
+
+    """ Check model type """
+
+    model = utils.load_artifact(MODEL_PATH)
+    assert isinstance(model, XGBClassifier)
