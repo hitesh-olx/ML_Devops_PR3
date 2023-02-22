@@ -20,8 +20,14 @@ We have used 20% data for validation
 ## Accuracy Metrics
 
 The model was evaluated on: Precision,Recall and Fbeta.
+Precision:  0.61. Recall:  0.39. Fbeta:  0.48
 
 
-## Future improvements
+## Ethical Considerations
 
-To further improve the performance, we can  optimize hyperparameter. Currenty my model seems to be overfit which we can optimize with more data. For now I have only considered a small set of data.
+Given that the data contains personal attributes about gender, race and so on, special consideration should be given to how the model
+performs accros different groups.
+
+## Caveats and Recommendations
+
+To further improve the performance, we can  optimize hyperparameter. Currenty my model seems to be underfit which we can optimize with more data. For now I have only considered a small set of data.
