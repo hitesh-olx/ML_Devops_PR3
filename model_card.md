@@ -26,7 +26,7 @@ Precision:  0.61. Recall:  0.39. Fbeta:  0.48
 ## Ethical Considerations
 
 Given that the data contains personal attributes about gender, race and so on, special consideration should be given to how the model
-performs accros different groups.
+performs on different groups.
 
 ## Caveats and Recommendations
 
